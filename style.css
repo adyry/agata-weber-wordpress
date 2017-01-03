@@ -14,8 +14,8 @@ Tags: one-column, two-columns, three-columns, right-sidebar, theme-options, cust
 -------------------------------------------------------------- */
 
 @font-face {
-	font-family: Lato;
-	src: url(fonts/AVALONN.TTF);
+	font-family: Avalonn;
+	src: url(fonts/avalonn-webfont.woff);
 	font-weight: normal;
 }
 
@@ -47,8 +47,8 @@ a img.aligncenter { display: block; margin-left: auto; margin-right: auto   }
 .container {
 }
 .clear { clear: both; }
-body {  font-size: 14px; font-family: 'Lato', sans-serif; font-weight: 400; color: #333; line-height: 140%; letter-spacing: 1.5px; margin: 0 }
-p { font-size: 16px; font-family: 'Lato', sans-serif; font-weight: 400; color: #333; line-height: 160%; letter-spacing: 1.5px; }
+body {  font-size: 14px; font-family: 'Avalonn', sans-serif; font-weight: 400; color: #333; line-height: 140%; letter-spacing: 1.5px; margin: 0 }
+p { font-size: 16px; font-family: 'Avalonn', sans-serif; font-weight: 400; color: #333; line-height: 160%; letter-spacing: 1.5px; }
 a { text-decoration: none; }
 img { max-width: 100%; height: auto; }
 ::-moz-selection { background-color: #000; color: #fff; }
@@ -96,7 +96,8 @@ img { max-width: 100%; height: auto; }
 .blog-pagination { text-align: center; }
 .blog-pagination .page-numbers { border: 1px solid #333333; font-size: 12px; padding: 10px 15px; display: inline-block; }
 .blog-pagination .page-numbers.current { background: #333333 none repeat scroll 0 0; color: #ffffff; }
-.post_content .archive_title h2 { display: inline-block; margin: 20px 0 20px; }
+.post_content .archive_title h2 { display: inline-block; margin: 20px 0 5px; }
+.post_content .archive_title a:hover {color: #000}
 .post_content .archive_title {text-align: center; border-bottom: 1px solid black; margin-bottom: 10px;}
 .post_content .port-image { height: 300px; }
 .post_content .port-cats a { color: #aaa; }
@@ -112,10 +113,10 @@ article.post_box, .blog_posts {/* width: 760px; */}
 .post_content {color: #333333;width: 760px;margin: auto;}
 .post_content > article {overflow: hidden;}
 .post_content a { color: #959595; }
-.post_content a:hover { color: #000; text-decoration: underline;}
+.post_content a:hover {text-decoration: underline;}
 .post_content h1 { line-height: 1; font-size: 27px; margin: 15px 0 15px; max-width: 720px; }
 .post_content h2 { line-height: 1; font-size: 20px; margin: 0 0 25px; }
-.post_content h3 { line-height: 1; font-size: 25px; font-family: 'Lato', sans-serif; font-weight: 700; line-height: 140%; letter-spacing: 1.5px; margin: 0 0 25px; }
+.post_content h3 { line-height: 1; font-size: 25px; font-family: 'Avalonn', sans-serif; font-weight: 700; line-height: 140%; letter-spacing: 1.5px; margin: 0 0 25px; }
 .post_content h4,
 .post_content h5,
 .post_content h6 { line-height: 1; font-size: 18px; font-weight: bold; margin: 0 0 10px; }
@@ -134,7 +135,8 @@ article.post_box, .blog_posts {/* width: 760px; */}
 .nav-next { float: right; }
 .nav-next a { background: #333; color: #fff; padding: 5px 10px; display: block; }
 .post-navigation {}
-.back-home {position: absolute; margin: 15px 0 15px; }
+.back-home {position: absolute; margin: 16px 0; }
+.back-home a:hover {color: #000;}
 
 /**FOOTER**/
 .main-foot { background: #393939 none repeat scroll 0 0; overflow: hidden; padding: 50px 0; }
