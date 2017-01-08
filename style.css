@@ -181,7 +181,7 @@ img {
   -ms-flex-preferred-size: 50%;
   flex-basis: 50%;
   text-align: center;
-  width: 50%; }
+}
 
 .port-image {
   overflow: hidden;
@@ -593,8 +593,8 @@ article.post_box, .blog_posts {
   .blog-post-box {
     margin: 0 0 20px; }
   .portfolio-box {
-    clear: both !important;
-    width: 100%; }
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%; }    
   .port-image {
     height: 300px;
     margin: 0 0; }

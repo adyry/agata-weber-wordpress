@@ -7,7 +7,7 @@ get_header();
 			<?php if (have_posts() ) : ?>
 				<div class="blog">
 					<div class="archive_title">
-						<div class="back-home"><a href="http://agataweber.pl/site2016/AW/"><i class="fa fa-home fa-2x"></i></a></div>
+						<div class="back-home"><a href="http://agataweber.pl/"><i class="fa fa-home fa-2x"></i></a></div>
 						<h2><?php the_archive_title(); ?></h2>
 					</div><!--//archive_title-->
 					<div class="archive-portfolio">
