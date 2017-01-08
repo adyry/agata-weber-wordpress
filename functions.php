@@ -24,14 +24,13 @@ function aweber_setup() {
 add_action( 'after_setup_theme', 'aweber_setup' );
 
 function remove_menus(){
-
+	remove_menu_page( 'jetpack' );                    //Jetpack*
 	remove_menu_page( 'index.php' );                  //Dashboard
 	remove_menu_page( 'edit.php' );                   //Posts
 	remove_menu_page( 'edit.php?post_type=page' );    //Pages
 	remove_menu_page( 'tools.php' );                  //Tools
-
 }
-add_action( 'admin_menu', 'remove_menus' );
+add_action( 'admin_menu', 'remove_menus',999);
 
 function my_theme_archive_title( $title ) {
 	if ( is_category() ) {
